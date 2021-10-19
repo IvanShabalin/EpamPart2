@@ -3,7 +3,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-     A a = new A();
+
+        A a1 = new B();
+        B b1 = new B();
+
+        X x1 = a1.m();
+        X x2 = b1.m();
+
+        Y y1 = b1.m();
+     /*A a = new A();
      B b = new B();
      C c = new C();
      D d = new D();
@@ -12,7 +20,6 @@ public class Main {
      a2.m();
 
      A a1 = new B();
-     a1.s();
      a1.m();
 
      A refBase;
@@ -33,6 +40,6 @@ public class Main {
         mas[0] = new A();
         mas[0] = new B();
         mas[0] = new C();
-        mas[0] = new D();
+        mas[0] = new D();*/
     }
 }
